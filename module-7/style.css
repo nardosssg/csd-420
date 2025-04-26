@@ -1,0 +1,29 @@
+/**
+ * Nardos Gebremdhin
+ * 4/26/2025
+ * M7: Programming Assignment
+ *
+ * CSS style sheet that defines a class for white fill and black stroke color and an ID for red and green color.
+ * */
+
+
+.plaincircle{
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+.circleborder{
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+}
+.border{
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+#redcircle{
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+#greencircle{
+    -fx-fill: green;
+    -fx-stroke: green
+}
